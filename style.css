@@ -34,6 +34,10 @@ body {
   margin: 0 auto 0;
 }
 
+.section {
+  margin: 16px 0;
+}
+
 .item {
   width: 56%;
   display: inline-block;
@@ -54,7 +58,7 @@ h3 {
   list-style: none;
 }
 
-input,button{
+input,button {
   outline: none;
 }
 
