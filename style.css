@@ -6,6 +6,8 @@ body {
 }
 
 .details {
+  height: 100%;
+  max-height: 269px;
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -20,22 +22,22 @@ body {
   font-family: fantasy, cursive;
 }
 
-@media (max-width: 768px) {
+@media (max-width:768px) {
 
   .details { 
     text-align: center;
   }
-  
+
 }
 
 .container {
   display: block;
   width: 500px;
-  margin: 0 auto 0;
+  margin: 0 auto;
 }
 
 .section {
-  margin: 16px 0;
+    margin: 16px 0;
 }
 
 .item {
@@ -51,6 +53,7 @@ body {
 ul {
   margin: 0;
   padding: 0px;
+  margin-top: -4px;
 }
 
 li, 
@@ -58,7 +61,7 @@ h3 {
   list-style: none;
 }
 
-input,button {
+input,button{
   outline: none;
 }
 
@@ -95,7 +98,7 @@ input[type="text"] {
   height: 21px;
   padding: 0 9px;
   border: 1px solid #ddd;
-  background: #fff;
+  background: #FFF;
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
@@ -127,6 +130,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: -2px;
 }
 
 li > * {
@@ -174,7 +178,7 @@ ul li input[type=text] {
 }
 
 ul li.editMode input[type=text] {
-  display: inline-block;
+  display:inline-block;
   width: 224px;
 }
 
