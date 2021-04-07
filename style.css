@@ -152,17 +152,17 @@ li > input[type="text"] {
   width: 226px;
 }
 
-li > button.delete:hover {
+li > button.mode__delete-button:hover {
   color: #cf2323;
 }
 
-button.delete img {
+button.mode__delete-button img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+button.mode__delete-button img:hover {
   transform: rotateZ(0);
 }
 
