@@ -167,7 +167,7 @@ button.mode__delete-button img:hover {
 }
 
 /* Completed */
-ul[for="container__completed-tasks"] label {
+.container__completed label {
   text-decoration: line-through;
   color: #888;
 }
