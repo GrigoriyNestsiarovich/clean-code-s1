@@ -11,7 +11,7 @@
 <body>
   <header class="details">
     <img src="./eisenhower-matrix.jpg" alt="header-logo">
-    <a class="header__inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+    <a class="details__inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </header>
   <main>
     <section class="container">
@@ -19,7 +19,7 @@
         <label for="new-task">Add Item</label>
       </section>
       <section class="container__wrapper">
-        <input id="new-task"class="item" type="text">
+        <input id="new-task"class="container__mode-item" type="text">
          <button>Add</button>
       </section>
       <p></p>
@@ -27,18 +27,18 @@
       <ul class="container" id="incompleteTasks">
         <li class="container__mode">
           <input type="checkbox">
-          <label class="item">Pay Bills</label>
+          <label class="container__mode-item">Pay Bills</label>
           <input type="text">
-          <button class="edit">Edit</button>
+          <button class="container__mode-edit">Edit</button>
           <button class="mode__delete-button">
             <img src="./remove.svg" alt="remove-picture">
           </button>
         </li>
         <li class="container__editMode">
           <input type="checkbox">
-          <label class="item">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="item">
-          <button class="edit">Save</button>
+          <label class="container__mode-item">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="container__mode-item">
+          <button class="container__mode-edit">Save</button>
           <button class="mode__delete-button">
             <img src="./remove.svg" alt="remove-picture">
           </button>
@@ -48,9 +48,9 @@
       <ul class="container__completed" id="container__completed-tasks">
         <li class="container__complete">
           <input type="checkbox" checked>
-          <label class="item">See the Doctor</label>
-          <input type="text" class="item">
-          <button class="edit">Edit</button>
+          <label class="container__mode-item">See the Doctor</label>
+          <input type="text" class="container__mode-item">
+          <button class="container__mode-edit">Edit</button>
           <button class="mode__delete-button">
             <img src="./remove.svg" alt="remove-picture">
           </button>
